@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+/* Header */
+.portfolio--header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  height: 10vh;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.link {
+  margin-left: auto;
+  text-decoration: none;
+}
+.link > a {
+  text-decoration: none;
+  color: white;
+}
